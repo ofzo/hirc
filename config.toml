@@ -1,4 +1,4 @@
-theme = "onelight"
+theme = "sky-light"
 
 
 [keys.normal]
@@ -24,13 +24,15 @@ select = "block"
 
 
 [editor.statusline]
-left = ["mode", "file-name"]
+left = ["mode", "file-name" ]
 center = ["spinner"]
 right = ["diagnostics", "selections", "position", "file-encoding", "file-type", "mode"]
 
 
 [editor.lsp]
 display-messages= true
+# display-inlay-hints = true
+
 
 [editor.indent-guides]
 render = true

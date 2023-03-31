@@ -1,7 +1,15 @@
+# https://github.com/helix-editor/helix/wiki/How-to-install-the-default-language-servers
 
 [[language]]
-name = "rust"
+name = "rust" # 1.rustup component add rust-analyzer 2. sudo ln -s $(rustup which rust-analyzer ) /usr/local/bin/rust-analyzer
 auto-format = true
 file-types = ["rs"]
 roots = ["Cargo.toml"]
 comment-token = "//"
+
+[language.language-server]
+command = "rustup"
+args = ["run", "stable", "rust-analyzer"]
+
+[language.config.check]
+command = "clippy"
