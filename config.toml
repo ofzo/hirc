@@ -3,6 +3,13 @@ theme = "onelight"
 
 [keys.normal]
 C-s = ":w"
+C-p = "command_palette"
+
+[keys.insert]
+C-p = "command_palette"
+
+[keys.select]
+C-p = "command_palette"
 
 [editor]
 cursorline = true
