@@ -1,0 +1,7 @@
+
+[[language]]
+name = "rust"
+auto-format = true
+file-types = ["rs"]
+roots = ["Cargo.toml"]
+comment-token = "//"

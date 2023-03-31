@@ -1,0 +1,34 @@
+theme = "onelight"
+
+
+[keys.normal]
+C-s = ":w"
+
+[editor]
+cursorline = true
+auto-save = true
+true-color = true
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "block"
+
+
+[editor.statusline]
+left = ["mode", "file-name"]
+center = ["spinner"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-type", "mode"]
+
+
+[editor.lsp]
+display-messages= true
+
+[editor.indent-guides]
+render = true
+skip-levels = 1
+
+[editor.whitespace.characters]
+newline = "⏎"
+tab = "→"
