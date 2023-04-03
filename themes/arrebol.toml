@@ -59,7 +59,7 @@
 
 "ui.window" = { bg = "white" , fg = "gray300"}
 "ui.popup" = { bg = "slate100" }
-"ui.highlight" = { fg = "white", bg = "sky500" }
+"ui.highlight" = { bg = "amber200", modifiers = ["italic"] }
 "ui.menu" = { bg = "gray50" }
 "ui.menu.selected" = { bg = "sky500", fg = "white" }
 

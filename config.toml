@@ -1,22 +1,33 @@
 theme = "arrebol"
-
+icons = "nerdfonts"
 
 [keys.normal]
 C-s = ":w"
 C-p = "command_palette"
 q = ":q"
+C-k = ["kill_to_line_start", "kill_to_line_end"]
+"esc" = [":sh macism com.apple.keylayout.ABC", "normal_mode"]
 
 [keys.insert]
 C-p = "command_palette"
+"esc" = [":sh macism com.apple.keylayout.ABC", "normal_mode"]
+
 
 [keys.select]
 C-p = "command_palette"
+
 
 [editor]
 cursorline = true
 auto-save = true
 true-color = true
 color-modes = true
+
+[editor.icons]
+bufferline = true
+picker = true
+statusline = true
+
 
 [editor.cursor-shape]
 insert = "bar"
@@ -25,9 +36,9 @@ select = "block"
 
 
 [editor.statusline]
-left = ["mode", "version-control", "file-name","position", "file-modification-indicator", "diagnostics" ]
+left = ["mode",  "spacer", "file-type-icon", "file-name","position", "file-modification-indicator", "diagnostics" ]
 center = ["spinner"]
-right = ["selections", "position-percentage", "file-encoding", "file-type", "mode"]
+right = ["selections", "position-percentage", "file-encoding","spacer","file-type-icon", "file-type", "version-control"]
 
 
 [editor.lsp]

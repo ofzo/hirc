@@ -26,3 +26,75 @@ inlayHints.closureReturnTypeHints.enable = "with_block"
 inlayHints.discriminantHints.enable = "fieldless"
 inlayHints.lifetimeElisionHints.enable = "skip_trivial"
 inlayHints.typeHints.hideClosureInitialization = false
+
+
+
+[[language]]
+name = "typescript"
+
+[language.config]
+hostInfo = "helix"
+locale = "zh-CN"
+
+[language.config.typescript.inlayHints]
+includeInlayEnumMemberValueHints = true
+includeInlayFunctionLikeReturnTypeHints = true
+includeInlayFunctionParameterTypeHints = true
+includeInlayParameterNameHints = "all"
+includeInlayParameterNameHintsWhenArgumentMatchesName = true
+includeInlayPropertyDeclarationTypeHints = true
+includeInlayVariableTypeHints = true
+
+[[language]]
+name = "tsx"
+
+[language.config]
+hostInfo = "helix"
+locale = "zh-CN"
+
+[language.config.typescript.inlayHints]
+includeInlayEnumMemberValueHints = true
+includeInlayFunctionLikeReturnTypeHints = true
+includeInlayFunctionParameterTypeHints = true
+includeInlayParameterNameHints = "all"
+includeInlayParameterNameHintsWhenArgumentMatchesName = true
+includeInlayPropertyDeclarationTypeHints = true
+includeInlayVariableTypeHints = true
+
+[[language]]
+name = "javascript"
+
+[language.config]
+hostInfo = "helix"
+locale = "zh-CN"
+
+[language.config.javascript.inlayHints]
+includeInlayEnumMemberValueHints = true
+includeInlayFunctionLikeReturnTypeHints = true
+includeInlayFunctionParameterTypeHints = true
+includeInlayParameterNameHints = "all"
+includeInlayParameterNameHintsWhenArgumentMatchesName = true
+includeInlayPropertyDeclarationTypeHints = true
+includeInlayVariableTypeHints = true
+
+[[language]]
+name = "jsx"
+
+[language.config]
+hostInfo = "helix"
+locale = "zh-CN"
+
+[language.config.javascript.inlayHints]
+includeInlayEnumMemberValueHints = true
+includeInlayFunctionLikeReturnTypeHints = true
+includeInlayFunctionParameterTypeHints = true
+includeInlayParameterNameHints = "all"
+includeInlayParameterNameHintsWhenArgumentMatchesName = true
+includeInlayPropertyDeclarationTypeHints = true
+includeInlayVariableTypeHints = true
+
+
+
+[[language]]
+name = "css"
+file-types = ["css", "scss", "less"]
