@@ -36,23 +36,24 @@
 "ui.background.separator" = { fg = "zinc200" }
 
 "ui.text" = { fg = "black" }
-"ui.text.focus" = { bg ="lime200" , fg = "indigo600" , modifiers = [ "italic" ]}
+"ui.text.focus" = { bg ="lime200" , fg = "amber600" , modifiers = [ "italic" ]}
 "ui.text.inactive" = { fg = "gray500" }
 "ui.statusline" = { fg = "black", bg = "sky100" }
 "ui.statusline.inactive" = { bg = "gray200" }
 "ui.statusline.normal" = { fg = "white", bg = "sky500" }
 "ui.statusline.insert" = { fg = "white", bg = "lime600" }
 "ui.statusline.select" = { fg = "white", bg = "rose500" }
-
+"ui.statusline.version_control" = { fg = "white", bg = "lime600"  }
 "ui.linenr" = { fg = "gray500" }
 "ui.selection" = { bg = "sky300" }
 
-"ui.linenr.selected" = { fg = "emerald700", modifiers = ["bold", "italic"]  } 
+"ui.linenr.selected" = { fg = "red700", modifiers = ["bold", "italic"]  } 
 "ui.cursorline.primary" = { bg = "teal100"} # 光标所在行的颜色
 "ui.cursor" = { bg = "sky300" }
 "ui.cursor.select" = { bg = "rose300" }
 "ui.cursor.insert" = { bg = "green700" }
 "ui.cursor.match" = {  bg = "amber300" }
+"ui.cursor.normal" = { bg = "sky800" }
 
 "ui.virtual.indent-guide" = { fg = "gray300" }
 

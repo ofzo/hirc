@@ -1,9 +1,10 @@
-theme = "sky-light"
+theme = "arrebol"
 
 
 [keys.normal]
 C-s = ":w"
 C-p = "command_palette"
+q = ":q"
 
 [keys.insert]
 C-p = "command_palette"
@@ -24,19 +25,20 @@ select = "block"
 
 
 [editor.statusline]
-left = ["mode", "file-name" ]
+left = ["mode", "version-control", "file-name","position", "file-modification-indicator", "diagnostics" ]
 center = ["spinner"]
-right = ["diagnostics", "selections", "position", "file-encoding", "file-type", "mode"]
+right = ["selections", "position-percentage", "file-encoding", "file-type", "mode"]
 
 
 [editor.lsp]
 display-messages= true
-# display-inlay-hints = true
+display-inlay-hints = true
 
 
 [editor.indent-guides]
 render = true
-skip-levels = 1
+skip-levels = 2
+character = "▏"
 
 [editor.whitespace.characters]
 newline = "⏎"
